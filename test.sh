@@ -5,6 +5,7 @@ if [ $# -eq 0 ]; then
 	exit
 fi
 
+
 function summary() {
 	IFS=' ' read -r -a array <<< "$g_failed_cases"
 	begin=${array[0]}
